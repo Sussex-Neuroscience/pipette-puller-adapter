@@ -11,14 +11,14 @@
 
 
 //variables
-platex = 10;
-platey = 10;
-platez = 1;
+platex = 19;
+platey = 19;
+platez = 3;
 
-centralHoleD = 2;
-sideHoleD = 1;
+centralHoleD = 5.5;
+sideHoleD = 3.2;
 
-sideHoleOff = (platey+sideHoleD)/4;
+sideHoleOff = 6.5;//(platey+sideHoleD)/4;
 
 channelD = 0.2;
 
@@ -30,12 +30,12 @@ $fn=20;
 difference(){
     cube([platex,platey,platez],center=true);
     union(){
-        translate([0,0,-1]){
+        translate([0,0,-2]){
             cylinder(h=platez+2,d=centralHoleD+2*   tolerance);
             }//end translate
 
 
-        translate([0,sideHoleOff,-1]){
+        translate([0,sideHoleOff,-2]){
             cylinder(h=platez+2,d=sideHoleD+2*      tolerance);
             }//end translate
 
