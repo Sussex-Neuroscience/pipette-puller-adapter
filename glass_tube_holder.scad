@@ -39,9 +39,9 @@ difference(){
             cylinder(h=platez+2,d=sideHoleD+2*      tolerance);
             }//end translate
 
-        translate([-(platex+2)/2,-sideHoleOff,  platez/2]){
+        translate([-(platex+2)/2,-sideHoleOff,  (platez-channelD)/2]){
             rotate([0,90,0]){
-                cylinder(h=platex+2,d=channelD+2*       tolerance,$fn=3);
+                cylinder(h=platex+2,d=channelD+2*tolerance,$fn=3);
             }//end rotate
         }//end translate
     }//end union
