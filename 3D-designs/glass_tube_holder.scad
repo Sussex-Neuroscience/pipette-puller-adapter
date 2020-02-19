@@ -15,6 +15,7 @@ platex = 50;
 platey = 20;
 platez = 1;
 
+//screw holes
 centralHoleD = 5.5;
 sideHoleD = 3.2;
 
@@ -22,6 +23,7 @@ holesDistance = 10;
 
 sideHoleOff = 6.5;//(platey+sideHoleD)/4;
 
+//channel where tube is placed
 channelD = 0.3;
 channelDistance = 3;
 
@@ -34,9 +36,10 @@ openingyD = 20;
 recessy = 4;
 recessx = 35;
 
+//tolerance - change this depending on printer model
 tolerance = 0.1;
 
-
+// the "sides" of a circle. fn=3 will generate "triangular circles" and fn=360 will generate very smooth circles
 $fn=20;
 
 

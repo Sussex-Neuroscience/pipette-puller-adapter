@@ -1,10 +1,10 @@
 # pipette-puller-adapter
 
-an adapter to fit thinner glass capilaries on a pipette puller
+an adapter to fit thinner polyamide capillaries on a P-87 Flaming/Brown Micropipette Puller from Sutter Instruments.
 
 <br>
 
-|![](<glass_tube_holder.png>)|
+|![](<holders.png>)|
 |---|
 
 ### This is still in progress and has not been tested yet!
