@@ -55,12 +55,12 @@ difference(){
             cube([openingx,openingy+0.1,platez+1],center=true);
             }//end translate
     
-        translate([(platex+centralHoleD)/2-holesDistance,0,-2]){
+        translate([(platex+centralHoleD)/2-(holesDistance+(centralHoleD/2)),0,-2]){
             cylinder(h=platez+2,d=centralHoleD+2*   tolerance);
             }//end translate
 
 
-        translate([(platex+centralHoleD)/2-holesDistance,sideHoleOff,-2]){
+        translate([(platex+centralHoleD)/2-(holesDistance+(centralHoleD/2)),sideHoleOff,-2]){
             cylinder(h=platez+2,d=sideHoleD+2*      tolerance);
             }//end translate
 
